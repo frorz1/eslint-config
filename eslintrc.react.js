@@ -1,0 +1,43 @@
+module.exports = {
+  extends: ['./eslintrc.base.js'],
+  plugins: ['react', 'react-hooks'],
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    jsxPragma: null,
+  },
+  rules: {
+    'react/display-name': 'off',
+    'react/jsx-key': 'error',
+    'react/jsx-no-comment-textnodes': 'error',
+    'react/jsx-no-duplicate-props': 'error',
+    'react/jsx-no-target-blank': 'error',
+    'react/jsx-no-undef': 'error',
+    'react/jsx-uses-react': 'off',
+    'react/jsx-uses-vars': 'error',
+    'react/no-children-prop': 'error',
+    'react/no-danger-with-children': 'error',
+    'react/no-deprecated': 'error',
+    'react/no-direct-mutation-state': 'error',
+    'react/no-find-dom-node': 'error',
+    'react/no-is-mounted': 'error',
+    'react/no-render-return-value': 'error',
+    'react/no-string-refs': 'error',
+    'react/no-unescaped-entities': 'error',
+    'react/no-unknown-property': 'error',
+    'react/no-unsafe': 'off',
+    'react/prop-types': 'error',
+    'react/react-in-jsx-scope': 'off',
+    'react/require-render-return': 'error',
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
+  },
+  settings: {
+    react: {
+      createClass: 'createReactClass',
+      pragma: 'React',
+      version: 'detect',
+    },
+  },
+}
