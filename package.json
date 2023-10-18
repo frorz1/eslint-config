@@ -1,5 +1,5 @@
 {
-  "name": "@frorz/common-eslint-config",
+  "name": "fr-eslint-config",
   "version": "0.1.1",
   "description": "eslint",
   "main": "index.js",
