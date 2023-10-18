@@ -1,5 +1,5 @@
 {
-  "name": "@frorz1/eslint-config-react",
+  "name": "@frorz/eslint-config-react",
   "version": "0.1.1",
   "description": "eslint",
   "main": "index.js",
